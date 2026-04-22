@@ -41,14 +41,14 @@ const AuthUi = () => {
           <form onSubmit={handleLogin}>
             <label>Username</label>
             <input
-              type="text"
+              type="text" placeholder="emilys"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
 
             <label>Password</label>
             <input
-              type="password"
+              type="password" placeholder="emilyspass"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
